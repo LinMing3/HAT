@@ -19,20 +19,13 @@ HARI-sampling/HARI/
 HARI-sampling/HARI2-3/
 HARI-Qwen3/HARI/
 prompt/HARI/
-GRPO/TRAIN/
+GRPO/TRAIN/GRPO
+GRPO/TRAIN/GRPO-more
 
 # 通用规则：任意层级下名为 HARI 或 checkpoint-* 的目录
 **/HARI/
 **/checkpoint-*/
 
-# =====================
-# TRL框架代码（每个实验都复制了一份，只保留一份即可）
-# =====================
-HARI-75retry/trl_main/
-HARI-hardtoeasy/trl_main/
-HARI-random/trl_main/
-HARI-sampling/trl_main/
-HARI-Qwen3/trl_main/
 
 # =====================
 # 模型权重文件（各种格式）
@@ -106,4 +99,14 @@ Thumbs.db
 # 临时文件
 # =====================
 tree_output.txt
-dirs_output.txt
+
+easy_hard_select.py
+HARI.py
+HARI.sh
+mgpo.py
+MME.py
+ret.py
+rew.py
+run_2.log
+tree_output.txt
+TreeBench.py
