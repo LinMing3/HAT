@@ -1,0 +1,32 @@
+{
+    "Perception-Remote Sensing": {
+        "accuracy": 0.587
+    },
+    "Perception-Monitoring": {
+        "accuracy": 0.467
+    },
+    "Perception-Autonomous_Driving": {
+        "accuracy": 0.443
+    },
+    "Perception-OCR with Complex Context": {
+        "accuracy": 0.904
+    },
+    "Perception-Diagram and Table": {
+        "accuracy": 0.890
+    },
+    "Reasoning-Monitoring": {
+        "accuracy": 0.553
+    },
+    "Reasoning-Autonomous_Driving": {
+        "accuracy": 0.410
+    },
+    "Reasoning-OCR with Complex Context": {
+        "accuracy": 0.760
+    },
+    "Reasoning-Diagram and Table": {
+        "accuracy": 0.720
+    },
+    "Average Reward": {
+        "overall_accuracy": 0.605
+    }
+}

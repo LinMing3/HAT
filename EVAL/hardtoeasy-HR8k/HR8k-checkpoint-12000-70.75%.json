@@ -1,0 +1,17 @@
+{
+    "single": {
+        "total": 400,
+        "correct": 352,
+        "accuracy": "88.00%"
+    },
+    "cross": {
+        "total": 400,
+        "correct": 214,
+        "accuracy": "53.50%"
+    },
+    "Overall": {
+        "total_samples": 800,
+        "total_correct": 566,
+        "overall_accuracy": "70.75%"
+    }
+}

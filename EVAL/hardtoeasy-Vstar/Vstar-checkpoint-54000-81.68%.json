@@ -1,0 +1,17 @@
+{
+    "direct_attributes": {
+        "total": 115,
+        "correct": 98,
+        "accuracy": "85.22%"
+    },
+    "relative_position": {
+        "total": 76,
+        "correct": 58,
+        "accuracy": "76.32%"
+    },
+    "Overall": {
+        "total_samples": 191,
+        "total_correct": 156,
+        "overall_accuracy": "81.68%"
+    }
+}

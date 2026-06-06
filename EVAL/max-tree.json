@@ -1,0 +1,35 @@
+{
+    "Reasoning/Perspective Transform-Reasoning/Perspective Transform": {
+        "accuracy": 0.2115
+    },
+    "Reasoning/Ordering-Reasoning/Ordering": {
+        "accuracy": 0.3505
+    },
+    "Perception/OCR-Perception/OCR": {
+        "accuracy": 0.5145
+    },
+    "Reasoning/Contact and Occlusion-Reasoning/Contact and Occlusion": {
+        "accuracy": 0.4875
+    },
+    "Reasoning/Spatial Containment-Reasoning/Spatial Containment": {
+        "accuracy": 0.7235
+    },
+    "Perception/Attributes-Perception/Attributes": {
+        "accuracy": 0.6205
+    },
+    "Perception/Material-Perception/Material": {
+        "accuracy": 0.6915
+    },
+    "Perception/Physical State-Perception/Physical State": {
+        "accuracy": 0.6515
+    },
+    "Reasoning/Comparison-Reasoning/Comparison": {
+        "accuracy": 0.5000
+    },
+    "Perception/Object Retrieval-Perception/Object Retrieval": {
+        "accuracy": 0.6875
+    },
+    "Overall": {
+        "overall_accuracy": 0.400
+    }
+}

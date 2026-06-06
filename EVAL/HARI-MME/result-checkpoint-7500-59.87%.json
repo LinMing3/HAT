@@ -1,0 +1,51 @@
+{
+    "Perception-Remote Sensing": {
+        "total": 150,
+        "correct": 91,
+        "accuracy": "60.67%"
+    },
+    "Perception-Autonomous_Driving": {
+        "total": 350,
+        "correct": 182,
+        "accuracy": "52.00%"
+    },
+    "Reasoning-Autonomous_Driving": {
+        "total": 400,
+        "correct": 184,
+        "accuracy": "46.00%"
+    },
+    "Perception-Diagram and Table": {
+        "total": 100,
+        "correct": 90,
+        "accuracy": "90.00%"
+    },
+    "Reasoning-Diagram and Table": {
+        "total": 100,
+        "correct": 70,
+        "accuracy": "70.00%"
+    },
+    "Perception-Monitoring": {
+        "total": 319,
+        "correct": 151,
+        "accuracy": "47.34%"
+    },
+    "Perception-OCR with Complex Context": {
+        "total": 250,
+        "correct": 225,
+        "accuracy": "90.00%"
+    },
+    "Reasoning-OCR with Complex Context": {
+        "total": 100,
+        "correct": 74,
+        "accuracy": "74.00%"
+    },
+    "Reasoning-Monitoring": {
+        "total": 150,
+        "correct": 82,
+        "accuracy": "54.67%"
+    },
+    "Average Reward": {
+        "total_samples": 1919,
+        "overall_accuracy": "59.87%"
+    }
+}

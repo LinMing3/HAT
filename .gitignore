@@ -1,0 +1,109 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# =====================
+# 模型 Checkpoints
+# =====================
+HARI-75retry/HARI/
+HARI-hardtoeasy/HARI/
+HARI-random/HARI/
+HARI-sampling/HARI/
+HARI-sampling/HARI2-3/
+HARI-Qwen3/HARI/
+prompt/HARI/
+GRPO/TRAIN/
+
+# 通用规则：任意层级下名为 HARI 或 checkpoint-* 的目录
+**/HARI/
+**/checkpoint-*/
+
+# =====================
+# TRL框架代码（每个实验都复制了一份，只保留一份即可）
+# =====================
+HARI-75retry/trl_main/
+HARI-hardtoeasy/trl_main/
+HARI-random/trl_main/
+HARI-sampling/trl_main/
+HARI-Qwen3/trl_main/
+
+# =====================
+# 模型权重文件（各种格式）
+# =====================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+
+# =====================
+# VL-Cogito 模型
+# =====================
+VL-Cogito/VLC/
+VL-Cogito/qwen25vl7b_eval.jsonl
+
+# =====================
+# 评测结果目录
+# =====================
+GRPO/EVAL/
+GRPO/EVAL-all/
+HARI-75retry/EVAL/
+HARI-75retry/EVAL-all/
+HARI-75retry/EVAL-other/
+HARI-hardtoeasy/EVAL/
+HARI-hardtoeasy/EVAL-all/
+HARI-random/EVAL/
+HARI-random/EVAL-all/
+HARI-sampling/EVAL-all/
+HARI-Qwen3/EVAL-all/
+Qwen/Qwen2.5-VL-7B-Instruct-*/
+visual/InternVL3-8B-mme-*/
+visual/result/
+VL-Cogito/EVAL/
+
+# =====================
+# 大量图片目录
+# =====================
+difficulty_export/
+preview_imgs/
+difficulty/difficulty_hist/
+
+# =====================
+# 日志文件
+# =====================
+*.log
+run_*.log
+
+# =====================
+# 大 JSON / JSONL 数据文件
+# =====================
+prompt/conversation_vars*.json
+prompt/conversation_vars*.jsonl
+visual/MME-*.json
+visual/output-*.json
+visual/hari-test.json
+Qwen/qwen.json
+VL-Cogito/EVAL/result.json
+
+# =====================
+# 编辑器 / 系统文件
+# =====================
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# =====================
+# 临时文件
+# =====================
+tree_output.txt
+dirs_output.txt

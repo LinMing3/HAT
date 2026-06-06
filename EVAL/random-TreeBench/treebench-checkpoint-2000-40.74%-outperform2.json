@@ -1,0 +1,70 @@
+{
+    "Reasoning/Perspective Transform-Reasoning/Perspective Transform": {
+        "total": 85,
+        "correct": 12,
+        "accuracy": "14.12%",
+        "outperform_max": false
+    },
+    "Reasoning/Ordering-Reasoning/Ordering": {
+        "total": 57,
+        "correct": 18,
+        "accuracy": "31.58%",
+        "outperform_max": false
+    },
+    "Perception/OCR-Perception/OCR": {
+        "total": 68,
+        "correct": 35,
+        "accuracy": "51.47%",
+        "outperform_max": true
+    },
+    "Reasoning/Contact and Occlusion-Reasoning/Contact and Occlusion": {
+        "total": 41,
+        "correct": 18,
+        "accuracy": "43.90%",
+        "outperform_max": false
+    },
+    "Reasoning/Spatial Containment-Reasoning/Spatial Containment": {
+        "total": 29,
+        "correct": 15,
+        "accuracy": "51.72%",
+        "outperform_max": false
+    },
+    "Perception/Attributes-Perception/Attributes": {
+        "total": 29,
+        "correct": 18,
+        "accuracy": "62.07%",
+        "outperform_max": true
+    },
+    "Perception/Material-Perception/Material": {
+        "total": 13,
+        "correct": 8,
+        "accuracy": "61.54%",
+        "outperform_max": false
+    },
+    "Perception/Physical State-Perception/Physical State": {
+        "total": 23,
+        "correct": 13,
+        "accuracy": "56.52%",
+        "outperform_max": false
+    },
+    "Reasoning/Comparison-Reasoning/Comparison": {
+        "total": 44,
+        "correct": 19,
+        "accuracy": "43.18%",
+        "outperform_max": false
+    },
+    "Perception/Object Retrieval-Perception/Object Retrieval": {
+        "total": 16,
+        "correct": 9,
+        "accuracy": "56.25%",
+        "outperform_max": false
+    },
+    "Overall": {
+        "perception_accuracy": "5570.47%",
+        "reasoning_accuracy": "3203.12%",
+        "outperform_count": 2,
+        "total_samples": 405,
+        "total_correct": 165,
+        "overall_accuracy": "40.74%"
+    }
+}
