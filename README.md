@@ -1,7 +1,6 @@
 # HAT: High-resolution Adaptive Training for Large Multimodal Models
 
 > **Paper:** HAT: High-resolution Adaptive Training for Large Multimodal Models Inspired by Human Cognition
-> **Status:** Under review at ICML 2026
 
 ## Overview
 
